@@ -7,3 +7,9 @@ The __BasicCI__ project is written using `Node 10` and uses `Express` to create 
 ```
 npm start
 ```
+
+For unit testing we use the test framework [Mocha](https://mochajs.org/) and a library called [supertest](https://www.npmjs.com/package/supertest) 
+to help manage HTTP requests in our tests. To run the tests use the command:
+```
+npm test
+```
