@@ -6,8 +6,8 @@ app.get('/', (req, res) => {
     res.send('Hello World!')
 })
 
-app.listen(port, () => {
+const server = app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)
 })
 
-module.exports = app
+module.exports = server
